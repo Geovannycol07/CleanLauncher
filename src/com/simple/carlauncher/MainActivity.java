@@ -181,7 +181,7 @@ public class MainActivity extends Activity implements NowPlaying.Listener {
     private void updateGreeting() {
         int h = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
         greeting.setText((h < 12 ? "Buenos días" : h < 19 ? "Buenas tardes" : "Buenas noches")
-                + " · Bienvenido");
+                + " · Geovanny y Julieth");
     }
 
     private void showWeather(Weather w) {
